@@ -1,0 +1,11 @@
+--- managed-previous.md	2021-03-10 08:45:57.000000000 +0000
++++ managed-stable.md	2021-03-10 08:46:10.000000000 +0000
+@@ -57,7 +57,7 @@
+ 
+ ## .net SDK
+ 
+-_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 5.0.103 [C:\Program Files\dotnet\sdk] <br/>
++_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.103 [C:\Program Files\dotnet\sdk] <br/>
+ 
+ ## .net runtime
+ 
