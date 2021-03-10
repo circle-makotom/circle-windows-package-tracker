@@ -1,5 +1,24 @@
 version: 2.1
 
+library:
+  the-workflow: &the-workflow
+    jobs:
+      - list-packages:
+          name: stable
+          image-tag: stable
+      - list-packages:
+          name: previous
+          image-tag: previous
+      - compare:
+          a: previous
+          b: stable
+          requires:
+            - stable
+            - previous
+      - publish:
+          requires:
+            - compare
+
 jobs:
   list-packages:
     parameters:
@@ -96,27 +115,14 @@ jobs:
             git push -u origin
 
 workflows:
-  run:
-    jobs:
-      - list-packages:
-          name: stable
-          image-tag: stable
-      - list-packages:
-          name: previous
-          image-tag: previous
-      - compare:
-          a: previous
-          b: stable
-          requires:
-            - stable
-            - previous
-      - publish:
-          requires:
-            - compare
-    #triggers:
-    #  - schedule:
-    #      cron: "0 * * * *"
-    #      filters:
-    #        branches:
-    #          only:
-    #            - master
+  on-demand: *the-workflow
+
+  scheduled:
+    <<: *the-workflow
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
