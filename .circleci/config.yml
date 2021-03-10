@@ -1,0 +1,122 @@
+version: 2.1
+
+jobs:
+  list-packages:
+    parameters:
+      image-tag:
+        type: string
+    machine:
+      image: windows-server-2019-vs2019:<< parameters.image-tag >>
+    resource_class: windows.medium
+    steps:
+      - run:
+          name: List uninstallers
+          shell: powershell.exe
+          command: |
+            Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate | Format-Table –AutoSize | Out-File uninstallers-<< parameters.image-tag >>.txt
+      - run:
+          name: List packages installed with chocolatey
+          shell: bash.exe
+          command: choco list --local-only > chocolatey-<< parameters.image-tag >>.txt
+      - run:
+          name: Copy the list of managed components
+          shell: cmd.exe
+          command: cp C:\InstalledSoftware.md managed-<< parameters.image-tag >>.md
+      - store_artifacts:
+          path: uninstallers-<< parameters.image-tag >>.txt
+      - store_artifacts:
+          path: chocolatey-<< parameters.image-tag >>.txt
+      - store_artifacts:
+          path: managed-<< parameters.image-tag >>.md
+      - persist_to_workspace:
+          root: .
+          paths:
+            - uninstallers-<< parameters.image-tag >>.txt
+            - chocolatey-<< parameters.image-tag >>.txt
+            - managed-<< parameters.image-tag >>.md
+
+  compare:
+    parameters:
+      a:
+        type: string
+      b:
+        type: string
+    docker:
+      - image: debian:buster-slim
+    steps:
+      - run:
+          name: Install tar, diffutils, and git
+          command: |
+            apt update
+            apt install -y tar diffutils git
+      - attach_workspace:
+          at: .
+      - run: ls
+      - run:
+          name: diff uninstallers
+          command: |
+            iconv -f UTF-16LE -t UTF-8 uninstallers-<< parameters.a >>.txt | tail -n +4 | sort -b > uninstallers-<< parameters.a >>.u8.txt
+            iconv -f UTF-16LE -t UTF-8 uninstallers-<< parameters.b >>.txt | tail -n +4 | sort -b > uninstallers-<< parameters.b >>.u8.txt
+            bash -c '(diff -u uninstallers-<< parameters.a >>.u8.txt uninstallers-<< parameters.b >>.u8.txt | tee diff-uninstallers.txt) || true'
+      - run:
+          name: diff chocolatey
+          command: bash -c '(diff -u chocolatey-<< parameters.a >>.txt chocolatey-<< parameters.b >>.txt | tee diff-chocolatey.txt) || true'
+      - run:
+          name: diff managed
+          command: bash -c '(diff -u managed-<< parameters.a >>.md managed-<< parameters.b >>.md | tee diff-managed.txt) || true'
+      - store_artifacts:
+          path: diff-uninstallers.txt
+      - store_artifacts:
+          path: diff-chocolatey.txt
+      - store_artifacts:
+          path: diff-managed.txt
+      - persist_to_workspace:
+          root: .
+          paths:
+            - diff-uninstallers.txt
+            - diff-chocolatey.txt
+            - diff-managed.txt
+
+  publish:
+    docker:
+      - image: debian:buster-slim
+    steps:
+      - run: apt update && apt -y install git
+      - checkout
+      - run: mkdir -p dist
+      - attach_workspace:
+          at: dist
+      - run:
+          name: add & commit & push
+          command: |
+            git config user.name "Makoto Mizukami"
+            git config user.email "makoto@circleci.com"
+            git add -A
+            git commit -a -m "[ci skip] dist at $(date +%FT%T%:z)"
+            git push -u origin
+
+workflows:
+  run:
+    jobs:
+      - list-packages:
+          name: stable
+          image-tag: stable
+      - list-packages:
+          name: previous
+          image-tag: previous
+      - compare:
+          a: previous
+          b: stable
+          requires:
+            - stable
+            - previous
+      - publish:
+          requires:
+            - compare
+    #triggers:
+    #  - schedule:
+    #      cron: "0 * * * *"
+    #      filters:
+    #        branches:
+    #          only:
+    #            - master
