@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-03-19 21:07:44.631166172 +0000
-+++ uninstallers-stable.u8.txt	2021-03-19 21:07:44.635166162 +0000
+--- uninstallers-previous.u8.txt	2021-03-19 22:07:51.055874958 +0000
++++ uninstallers-stable.u8.txt	2021-03-19 22:07:51.055874958 +0000
 @@ -20,6 +20,7 @@
  Microsoft .NET Core Runtime - 3.1.12 (x86)                                    24.112.29719    Microsoft Corporation    
  Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
