@@ -57,7 +57,7 @@ _Version:_ 12.0.2<br/>
 
 ## .net SDK
 
-_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 5.0.103 [C:\Program Files\dotnet\sdk] <br/>
+_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.103 [C:\Program Files\dotnet\sdk] <br/>
 
 ## .net runtime
 

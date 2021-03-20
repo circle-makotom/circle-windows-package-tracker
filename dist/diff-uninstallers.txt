@@ -1,6 +1,6 @@
---- uninstallers-previous.u8.txt	2021-03-20 00:07:31.485296261 +0000
-+++ uninstallers-stable.u8.txt	2021-03-20 00:07:31.485296261 +0000
-@@ -10,16 +10,17 @@
+--- uninstallers-previous.u8.txt	2021-03-20 01:07:34.477005450 +0000
++++ uninstallers-stable.u8.txt	2021-03-20 01:07:34.477005450 +0000
+@@ -10,14 +10,14 @@
  Google Cloud SDK                                                                              Google Inc.              
  IntelliTraceProfilerProxy                                                     15.0.18198.01   Microsoft Corporation    
  Intellisense Lang Pack Mobile Extension SDK 10.0.10240.0                      10.0.10240.0    Microsoft Corporation    
@@ -17,11 +17,8 @@
 +Microsoft .NET Core Runtime - 3.1.13 (x86)                                    24.116.29816    Microsoft Corporation    
  Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
  Microsoft .NET Core SDK 3.0.100 (x64)                                         3.0.100.14277   Microsoft Corporation    
-+Microsoft .NET Core SDK 3.1.406 (x64)                                         3.1.406.15636   Microsoft Corporation    
- Microsoft .NET CoreRuntime For CoreCon                                        1.0.0.0         Microsoft Corporation    
- Microsoft .NET CoreRuntime SDK                                                1.1.27004.0     Microsoft Corporation    
- Microsoft .NET Framework 3.5 Targeting Pack (enu)                             3.5.28329       Microsoft Corporation    
-@@ -42,12 +43,12 @@
+ Microsoft .NET Core SDK 3.1.406 (x64)                                         3.1.406.15636   Microsoft Corporation    
+@@ -43,12 +43,12 @@
  Microsoft .NET Framework 4.8 Targeting Pack                                   4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.03761       Microsoft Corporation    
@@ -39,7 +36,7 @@
  Microsoft ASP.NET Web Tools Packages 16.0 - ENU                               1.0.21125.0     Microsoft Corporation    
  Microsoft Azure CLI                                                           2.0.70          Microsoft Corporation    
  Microsoft Azure Storage Emulator - v5.10                                      5.10.19227.2113 Microsoft Corporation    
-@@ -59,24 +60,24 @@
+@@ -60,24 +60,24 @@
  Microsoft Portable Library Multi-Targeting Pack                               16.0.28329.73   Microsoft Corporation    
  Microsoft Portable Library Multi-Targeting Pack Language Pack - enu           16.0.28329.73   Microsoft Corporation    
  Microsoft System CLR Types for SQL Server 2019 CTP2.2                         15.0.1200.24    Microsoft Corporation    
@@ -74,7 +71,7 @@
  Microsoft Workflow Debugger v1.0 for x86                                      16.0.28329      Microsoft                
  Open XML SDK 2.5 for Microsoft Office                                         2.5.5631        Microsoft Corporation    
  Python 2.7.18                                                                 2.7.18150       Python Software Founda...
-@@ -95,34 +96,34 @@
+@@ -96,34 +96,34 @@
  Python 3.7.8 Utility Scripts (32-bit)                                         3.7.8150.0      Python Software Founda...
  Python 3.7.8 pip Bootstrap (32-bit)                                           3.7.8150.0      Python Software Founda...
  Python Launcher                                                               3.7.7118.0      Python Software Founda...
@@ -117,7 +114,7 @@
  Update for  (KB2504637)                                                       1               Microsoft Corporation    
  VS Immersive Activate Helper                                                  16.0.102.0      Microsoft Corporation    
  Vim 8.0.604                                                                                                            
-@@ -173,14 +174,14 @@
+@@ -174,14 +174,14 @@
  Visual C++ Library CRT ARM OneCore For Desktop Package                        14.0.24245      Microsoft Corporation    
  Visual C++ Library CRT ARM Redist Package                                     14.0.24245      Microsoft Corporation    
  Visual C++ Library CRT ARM Store Package                                      14.0.24245      Microsoft Corporation    
@@ -140,7 +137,7 @@
  Visual C++ Library CRT Redist Resource Package                                14.0.24245      Microsoft Corporation    
  Visual C++ Library CRT Source Package                                         14.0.24245      Microsoft Corporation    
  Visual C++ Library CRT X64 Desktop Package                                    14.0.24245      Microsoft Corporation    
-@@ -206,8 +207,8 @@
+@@ -207,8 +207,8 @@
  Visual C++ MSBuild Base Resource Package                                      14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X64 Package                                                14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
@@ -151,7 +148,7 @@
  WPT Redistributables                                                          10.1.18362.1    Microsoft                
  WPTx64                                                                        10.1.18362.1    Microsoft                
  WinAppDeploy                                                                  10.0.26624      Microsoft Corporation    
-@@ -215,282 +216,282 @@
+@@ -216,282 +216,282 @@
  WinAppDeploy                                                                  10.1.17134.12   Microsoft Corporation    
  WinAppDeploy                                                                  10.1.17763.132  Microsoft Corporation    
  WinAppDeploy                                                                  10.1.18362.1    Microsoft Corporation    
