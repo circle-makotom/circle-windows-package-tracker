@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-03-26 07:08:05.615596190 +0000
-+++ uninstallers-stable.u8.txt	2021-03-26 07:08:05.635596260 +0000
+--- uninstallers-previous.u8.txt	2021-03-26 08:08:31.728301032 +0000
++++ uninstallers-stable.u8.txt	2021-03-26 08:08:31.732301043 +0000
 @@ -10,14 +10,14 @@
  Google Cloud SDK                                                                              Google Inc.              
  IntelliTraceProfilerProxy                                                     15.0.18198.01   Microsoft Corporation    
