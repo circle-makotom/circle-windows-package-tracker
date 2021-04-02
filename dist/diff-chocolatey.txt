@@ -1,6 +1,6 @@
---- chocolatey-previous.txt	2021-04-02 03:07:13.000000000 +0000
-+++ chocolatey-stable.txt	2021-04-02 03:07:16.000000000 +0000
-@@ -12,15 +12,15 @@
+--- chocolatey-previous.txt	2021-04-02 04:07:13.000000000 +0000
++++ chocolatey-stable.txt	2021-04-02 04:07:21.000000000 +0000
+@@ -5,15 +5,15 @@
  chocolatey 0.10.15
  chocolatey-core.extension 1.3.5.1
  chocolatey-dotnetfx.extension 1.0.1
@@ -19,7 +19,7 @@
  golang 1.12.7
  gzip 1.3.12
  jq 1.5
-@@ -41,8 +41,8 @@
+@@ -34,8 +34,8 @@
  ruby 2.6.3.1
  service-fabric 7.2.445
  service-fabric-sdk 4.2.445
@@ -30,3 +30,11 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.1
+@@ -45,7 +45,3 @@
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 45 packages installed.
+-
+-Did you know Pro / Business automatically syncs with Programs and
+- Features? Learn more about Package Synchronizer at
+- https://chocolatey.org/compare
