@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-04-21 08:07:33.866379995 +0000
-+++ uninstallers-stable.u8.txt	2021-04-21 08:07:33.870380022 +0000
+--- uninstallers-previous.u8.txt	2021-04-21 09:07:44.727621326 +0000
++++ uninstallers-stable.u8.txt	2021-04-21 09:07:44.735621333 +0000
 @@ -10,14 +10,14 @@
  Google Cloud SDK                                                                              Google Inc.              
  IntelliTraceProfilerProxy                                                     15.0.18198.01   Microsoft Corporation    
@@ -14,7 +14,7 @@
 -MSI Development Tools                                                         10.1.19041.1    Microsoft Corporation    
 -Microsoft .NET Core Runtime - 3.1.12 (x86)                                    24.112.29719    Microsoft Corporation    
 +MSI Development Tools                                                         10.1.19041.685  Microsoft Corporation    
-+Microsoft .NET Core Runtime - 3.1.13 (x86)                                    24.116.29816    Microsoft Corporation    
++Microsoft .NET Core Runtime - 3.1.14 (x86)                                    24.120.29915    Microsoft Corporation    
  Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
  Microsoft .NET Core SDK 3.0.100 (x64)                                         3.0.100.14277   Microsoft Corporation    
  Microsoft .NET Core SDK 3.1.406 (x64)                                         3.1.406.15636   Microsoft Corporation    
@@ -23,16 +23,16 @@
  Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.03761       Microsoft Corporation    
 -Microsoft .NET Host FX Resolver - 5.0.3 (x86)                                 40.12.29722     Microsoft Corporation    
-+Microsoft .NET Host FX Resolver - 5.0.4 (x86)                                 40.16.29816     Microsoft Corporation    
++Microsoft .NET Host FX Resolver - 5.0.5 (x86)                                 40.20.29916     Microsoft Corporation    
  Microsoft .NET Native SDK                                                     15.0.24211.07   Microsoft Corporation    
 -Microsoft .NET Runtime - 5.0.3 (x86)                                          40.12.29722     Microsoft Corporation    
 -Microsoft ASP.NET Core 3.1.12 Shared Framework (x86)                          3.1.12.21070    Microsoft Corporation    
 -Microsoft ASP.NET Core 5.0.3 Shared Framework (x86)                           5.0.3.21073     Microsoft Corporation    
 -Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.8.559.8768   Microsoft Corporation    
-+Microsoft .NET Runtime - 5.0.4 (x86)                                          40.16.29816     Microsoft Corporation    
-+Microsoft ASP.NET Core 3.1.13 Shared Framework (x86)                          3.1.13.21117    Microsoft Corporation    
-+Microsoft ASP.NET Core 5.0.4 Shared Framework (x86)                           5.0.4.21118     Microsoft Corporation    
-+Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.9.688.6828   Microsoft Corporation    
++Microsoft .NET Runtime - 5.0.5 (x86)                                          40.20.29916     Microsoft Corporation    
++Microsoft ASP.NET Core 3.1.14 Shared Framework (x86)                          3.1.14.21166    Microsoft Corporation    
++Microsoft ASP.NET Core 5.0.5 Shared Framework (x86)                           5.0.5.21167     Microsoft Corporation    
++Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.9.693.2781   Microsoft Corporation    
  Microsoft ASP.NET Web Tools Packages 16.0 - ENU                               1.0.21125.0     Microsoft Corporation    
  Microsoft Azure CLI                                                           2.0.70          Microsoft Corporation    
  Microsoft Azure Storage Emulator - v5.10                                      5.10.19227.2113 Microsoft Corporation    
@@ -55,19 +55,19 @@
 -Microsoft Visual C++ 2019 X86 Debug Runtime - 14.28.29334                     14.28.29334     Microsoft Corporation    
 -Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.28.29334                   14.28.29334     Microsoft Corporation    
 -Microsoft Visual Studio 2019 Tools for Unity                                  4.8.2.0         Microsoft Corporation    
-+Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.28.29913            14.28.29913.0   Microsoft Corporation    
-+Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.28.29913            14.28.29913.0   Microsoft Corporation    
-+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.28.29913                14.28.29913     Microsoft Corporation    
-+Microsoft Visual C++ 2019 X86 Debug Runtime - 14.28.29913                     14.28.29913     Microsoft Corporation    
-+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.28.29913                   14.28.29913     Microsoft Corporation    
++Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.28.29914            14.28.29914.0   Microsoft Corporation    
++Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.28.29914            14.28.29914.0   Microsoft Corporation    
++Microsoft Visual C++ 2019 X86 Additional Runtime - 14.28.29914                14.28.29914     Microsoft Corporation    
++Microsoft Visual C++ 2019 X86 Debug Runtime - 14.28.29914                     14.28.29914     Microsoft Corporation    
++Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.28.29914                   14.28.29914     Microsoft Corporation    
 +Microsoft Visual Studio 2019 Tools for Unity                                  4.9.1.0         Microsoft Corporation    
  Microsoft Visual Studio Setup Configuration                                   2.7.3111.17308  Microsoft Corporation    
  Microsoft Visual Studio Setup WMI Provider                                    2.7.3111.17308  Microsoft Corporation    
  Microsoft Windows Communication Foundation Diagnostic Pack for x86            16.0.28329      Microsoft                
 -Microsoft Windows Desktop Runtime - 3.1.12 (x86)                              24.112.29719    Microsoft Corporation    
 -Microsoft Windows Desktop Runtime - 5.0.3 (x86)                               40.12.29723     Microsoft Corporation    
-+Microsoft Windows Desktop Runtime - 3.1.13 (x86)                              24.116.29816    Microsoft Corporation    
-+Microsoft Windows Desktop Runtime - 5.0.4 (x86)                               40.16.29817     Microsoft Corporation    
++Microsoft Windows Desktop Runtime - 3.1.14 (x86)                              24.120.29915    Microsoft Corporation    
++Microsoft Windows Desktop Runtime - 5.0.5 (x86)                               40.20.29917     Microsoft Corporation    
  Microsoft Workflow Debugger v1.0 for x86                                      16.0.28329      Microsoft                
  Open XML SDK 2.5 for Microsoft Office                                         2.5.5631        Microsoft Corporation    
  Python 2.7.18                                                                 2.7.18150       Python Software Founda...
@@ -143,8 +143,8 @@
  Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
 -Visual Studio Build Tools 2019 (2)                                            16.8.31005.135  Microsoft Corporation    
 -Visual Studio Community 2019                                                  16.8.31005.135  Microsoft Corporation    
-+Visual Studio Build Tools 2019 (2)                                            16.9.31112.23   Microsoft Corporation    
-+Visual Studio Community 2019                                                  16.9.31112.23   Microsoft Corporation    
++Visual Studio Build Tools 2019 (2)                                            16.9.31205.134  Microsoft Corporation    
++Visual Studio Community 2019                                                  16.9.31205.134  Microsoft Corporation    
  WPT Redistributables                                                          10.1.18362.1    Microsoft                
  WPTx64                                                                        10.1.18362.1    Microsoft                
  WinAppDeploy                                                                  10.0.26624      Microsoft Corporation    
@@ -453,7 +453,7 @@
 -Windows Team Extension SDK Contracts                                          10.1.19041.1    Microsoft Corporation    
 -Xamarin Offline Packages                                                      16.8.112        Xamarin                  
 +Windows Team Extension SDK Contracts                                          10.1.19041.685  Microsoft Corporation    
-+Xamarin Offline Packages                                                      16.9.68         Xamarin                  
++Xamarin Offline Packages                                                      16.9.72         Xamarin                  
  Xamarin PCL Profiles v1.0.9                                                   1.0.9.0         Xamarin                  
  Xamarin Remoted iOS Simulator                                                 16.7.0.0        Xamarin                  
 -Xoreax IncrediBuild 9.4.4 (build 3042)                                                                                 
@@ -469,7 +469,7 @@
  sptools_Microsoft.VisualStudio.Vsto.Msi.Resources                             16.0.28030      Microsoft Corporation    
  sptools_Microsoft.VisualStudio.Vsto.Msi.x64                                   16.0.28030      Microsoft Corporation    
 -vcpp_crt.redist.clickonce                                                     14.28.29334     Microsoft Corporation    
-+vcpp_crt.redist.clickonce                                                     14.28.29913     Microsoft Corporation    
++vcpp_crt.redist.clickonce                                                     14.28.29914     Microsoft Corporation    
  vs_BlendMsi                                                                   16.0.28329      Microsoft Corporation    
 -vs_FileTracker_Singleton                                                      16.8.30509      Microsoft Corporation    
 -vs_Graphics_Singletonx86                                                      16.8.30608      Microsoft Corporation    
