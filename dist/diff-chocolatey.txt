@@ -1,19 +1,13 @@
---- chocolatey-previous.txt	2021-04-21 09:07:09.000000000 +0000
-+++ chocolatey-stable.txt	2021-04-21 09:07:15.000000000 +0000
-@@ -5,15 +5,15 @@
- chocolatey 0.10.15
- chocolatey-core.extension 1.3.5.1
- chocolatey-dotnetfx.extension 1.0.1
--chocolatey-visualstudio.extension 1.8.1
-+chocolatey-visualstudio.extension 1.9.0
- chocolatey-windowsupdate.extension 1.0.4
+--- chocolatey-previous.txt	2021-04-21 10:07:10.000000000 +0000
++++ chocolatey-stable.txt	2021-04-21 10:07:16.000000000 +0000
+@@ -10,10 +10,10 @@
  DotNet4.5 4.5.20120822
  dotnetcore-sdk 2.2.401
  dotnetfx 4.8.0.20190930
--git 2.30.1
+-git 2.31.0
 -git-lfs 2.13.2
 -git-lfs.install 2.13.2
--git.install 2.30.1
+-git.install 2.31.0
 +git 2.31.1
 +git-lfs 2.13.3
 +git-lfs.install 2.13.3
@@ -33,8 +27,8 @@
  ruby 2.6.3.1
 -service-fabric 7.2.445
 -service-fabric-sdk 4.2.445
--sysinternals 2021.1.19
--vcredist140 14.28.29325.2
+-sysinternals 2021.3.1
+-vcredist140 14.28.29913
 +service-fabric 7.2.477
 +service-fabric-sdk 4.2.477
 +sysinternals 2021.3.23
@@ -42,3 +36,11 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.1
+@@ -45,3 +45,7 @@
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 45 packages installed.
++
++Did you know Pro / Business automatically syncs with Programs and
++ Features? Learn more about Package Synchronizer at
++ https://chocolatey.org/compare
