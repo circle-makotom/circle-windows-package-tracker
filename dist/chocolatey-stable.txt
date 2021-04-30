@@ -34,7 +34,7 @@ openjdk 12.0.2
 ruby 2.6.3.1
 service-fabric 7.2.477
 service-fabric-sdk 4.2.477
-sysinternals 2021.3.23
+sysinternals 2021.4.23
 vcredist140 14.28.29914
 vcredist2015 14.0.24215.20170201
 vim 8.0.604
