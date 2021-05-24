@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2021-05-24 06:07:03.000000000 +0000
-+++ chocolatey-stable.txt	2021-05-24 06:07:23.000000000 +0000
+--- chocolatey-previous.txt	2021-05-24 07:07:08.000000000 +0000
++++ chocolatey-stable.txt	2021-05-24 07:07:10.000000000 +0000
 @@ -10,10 +10,10 @@
  DotNet4.5 4.5.20120822
  dotnetcore-sdk 2.2.401
@@ -36,11 +36,3 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.1
-@@ -45,3 +45,7 @@
- windows-sdk-10.0 10.0.26624
- windows-sdk-10.1 10.1.18362.1
- 45 packages installed.
-+
-+Did you know Pro / Business automatically syncs with Programs and
-+ Features? Learn more about Package Synchronizer at
-+ https://chocolatey.org/compare
