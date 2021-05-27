@@ -29,7 +29,7 @@ _Version:_ azure-cli                         2.0.70 <br/>
 
 ## Azure Service Fabric
 
-_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 3.3.617 <br/>
+_Version:_  <br/>
 
 ## nunit
 
@@ -57,11 +57,11 @@ _Version:_ 12.0.2<br/>
 
 ## .net SDK
 
-_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.202 [C:\Program Files\dotnet\sdk] <br/>
+_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.203 [C:\Program Files\dotnet\sdk] <br/>
 
 ## .net runtime
 
-_Versions:_ Microsoft.AspNetCore.All 2.1.27 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.27 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.27 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
+_Versions:_ Microsoft.AspNetCore.All 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
 
 ## WinAppDriver
 
@@ -69,7 +69,7 @@ _Version:_ 1.1.1809.18001<br/>
 
 ## Visual Studio 2019
 
-_Version:_ installationVersion: 16.9.31205.134<br/>
+_Version:_ installationVersion: 16.9.31313.79<br/>
 
 ## windows sdk 10.0
 
