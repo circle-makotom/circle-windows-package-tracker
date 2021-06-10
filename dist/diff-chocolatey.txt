@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2021-06-10 16:07:10.000000000 +0000
-+++ chocolatey-stable.txt	2021-06-10 16:07:26.000000000 +0000
+--- chocolatey-previous.txt	2021-06-10 17:07:15.000000000 +0000
++++ chocolatey-stable.txt	2021-06-10 17:07:31.000000000 +0000
 @@ -24,7 +24,6 @@
  KB3033929 1.0.5
  KB3035131 1.0.3
@@ -8,7 +8,7 @@
  miniconda3 4.6.14
  nano 2.5.3
  nuget.commandline 5.9.1
-@@ -41,7 +40,7 @@
+@@ -41,11 +40,7 @@
  visualstudio-installer 2.0.1
  visualstudio2019buildtools 16.3.6.0
  visualstudio2019community 16.3.6.0
@@ -17,4 +17,8 @@
  windows-sdk-10.0 10.0.26624
  windows-sdk-10.1 10.1.18362.1
 -45 packages installed.
+-
+-Did you know Pro / Business automatically syncs with Programs and
+- Features? Learn more about Package Synchronizer at
+- https://chocolatey.org/compare
 +44 packages installed.
