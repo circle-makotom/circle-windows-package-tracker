@@ -1,6 +1,6 @@
---- chocolatey-previous.txt	2021-06-14 02:07:17.000000000 +0000
-+++ chocolatey-stable.txt	2021-06-14 02:07:22.000000000 +0000
-@@ -24,7 +24,6 @@
+--- chocolatey-previous.txt	2021-06-14 03:07:10.000000000 +0000
++++ chocolatey-stable.txt	2021-06-14 03:07:21.000000000 +0000
+@@ -31,7 +31,6 @@
  KB3033929 1.0.5
  KB3035131 1.0.3
  KB3063858 1.0.0
@@ -8,7 +8,7 @@
  miniconda3 4.6.14
  nano 2.5.3
  nuget.commandline 5.9.1
-@@ -41,7 +40,7 @@
+@@ -48,7 +47,7 @@
  visualstudio-installer 2.0.1
  visualstudio2019buildtools 16.3.6.0
  visualstudio2019community 16.3.6.0
