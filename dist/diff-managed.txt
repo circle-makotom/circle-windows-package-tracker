@@ -1,5 +1,5 @@
---- managed-previous.md	2021-06-20 00:07:19.000000000 +0000
-+++ managed-stable.md	2021-06-20 00:08:18.000000000 +0000
+--- managed-previous.md	2021-06-20 01:07:15.000000000 +0000
++++ managed-stable.md	2021-06-20 01:07:33.000000000 +0000
 @@ -29,7 +29,7 @@
  
  ## Azure Service Fabric
