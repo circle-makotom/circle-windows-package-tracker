@@ -24,7 +24,6 @@ KB2999226 1.0.20181019
 KB3033929 1.0.5
 KB3035131 1.0.3
 KB3063858 1.0.0
-lessmsi 1.8.1
 miniconda3 4.6.14
 nano 2.5.3
 nuget.commandline 5.9.1
@@ -41,7 +40,7 @@ vim 8.0.604
 visualstudio-installer 2.0.1
 visualstudio2019buildtools 16.3.6.0
 visualstudio2019community 16.3.6.0
-webpicmd 7.1.50430.20141001
+webpi 5.1
 windows-sdk-10.0 10.0.26624
 windows-sdk-10.1 10.1.18362.1
-45 packages installed.
+44 packages installed.

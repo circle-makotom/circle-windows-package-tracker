@@ -1,11 +1,11 @@
---- uninstallers-previous.u8.txt	2021-06-21 09:07:50.005921915 +0000
-+++ uninstallers-stable.u8.txt	2021-06-21 09:07:50.005921915 +0000
+--- uninstallers-previous.u8.txt	2021-06-21 10:07:59.366108251 +0000
++++ uninstallers-stable.u8.txt	2021-06-21 10:07:59.366108251 +0000
 @@ -16,13 +16,10 @@
  MSI Development Tools                                                         10.1.17134.12   Microsoft Corporation    
  MSI Development Tools                                                         10.1.17763.132  Microsoft Corporation    
  MSI Development Tools                                                         10.1.18362.1    Microsoft Corporation    
 -MSI Development Tools                                                         10.1.19041.685  Microsoft Corporation    
--Microsoft .NET Core Runtime - 3.1.14 (x86)                                    24.120.29915    Microsoft Corporation    
+-Microsoft .NET Core Runtime - 3.1.15 (x86)                                    24.124.30014    Microsoft Corporation    
 +Microsoft .NET Core Runtime - 3.1.16 (x86)                                    24.64.30112     Microsoft Corporation    
  Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
  Microsoft .NET Core SDK 3.0.100 (x64)                                         3.0.100.14277   Microsoft Corporation    
@@ -19,11 +19,11 @@
  Microsoft .NET Framework 4.8 Targeting Pack                                   4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.03761       Microsoft Corporation    
--Microsoft .NET Host FX Resolver - 5.0.5 (x86)                                 40.20.29916     Microsoft Corporation    
+-Microsoft .NET Host FX Resolver - 5.0.6 (x86)                                 40.24.30020     Microsoft Corporation    
 -Microsoft .NET Native SDK                                                     15.0.24211.07   Microsoft Corporation    
--Microsoft .NET Runtime - 5.0.5 (x86)                                          40.20.29916     Microsoft Corporation    
--Microsoft ASP.NET Core 3.1.14 Shared Framework (x86)                          3.1.14.21166    Microsoft Corporation    
--Microsoft ASP.NET Core 5.0.5 Shared Framework (x86)                           5.0.5.21167     Microsoft Corporation    
+-Microsoft .NET Runtime - 5.0.6 (x86)                                          40.24.30020     Microsoft Corporation    
+-Microsoft ASP.NET Core 3.1.15 Shared Framework (x86)                          3.1.15.21215    Microsoft Corporation    
+-Microsoft ASP.NET Core 5.0.6 Shared Framework (x86)                           5.0.6.21223     Microsoft Corporation    
 -Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.9.693.2781   Microsoft Corporation    
 +Microsoft .NET Host FX Resolver - 5.0.7 (x86)                                 40.28.30105     Microsoft Corporation    
 +Microsoft .NET Runtime - 5.0.7 (x86)                                          40.28.30105     Microsoft Corporation    
@@ -58,8 +58,8 @@
  Microsoft Visual Studio Setup Configuration                                   2.7.3111.17308  Microsoft Corporation    
  Microsoft Visual Studio Setup WMI Provider                                    2.7.3111.17308  Microsoft Corporation    
  Microsoft Windows Communication Foundation Diagnostic Pack for x86            16.0.28329      Microsoft                
--Microsoft Windows Desktop Runtime - 3.1.14 (x86)                              24.120.29915    Microsoft Corporation    
--Microsoft Windows Desktop Runtime - 5.0.5 (x86)                               40.20.29917     Microsoft Corporation    
+-Microsoft Windows Desktop Runtime - 3.1.15 (x86)                              24.124.30014    Microsoft Corporation    
+-Microsoft Windows Desktop Runtime - 5.0.6 (x86)                               40.24.30021     Microsoft Corporation    
 -Microsoft Workflow Debugger v1.0 for x86                                      16.0.28329      Microsoft                
 +Microsoft Windows Desktop Runtime - 3.1.16 (x86)                              24.64.30112     Microsoft Corporation    
 +Microsoft Windows Desktop Runtime - 5.0.7 (x86)                               40.28.30113     Microsoft Corporation    
@@ -133,8 +133,8 @@
  Visual C++ MSBuild Base Resource Package                                      14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X64 Package                                                14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
--Visual Studio Build Tools 2019 (2)                                            16.9.31205.134  Microsoft Corporation    
--Visual Studio Community 2019                                                  16.9.31205.134  Microsoft Corporation    
+-Visual Studio Build Tools 2019 (2)                                            16.9.31313.79   Microsoft Corporation    
+-Visual Studio Community 2019                                                  16.9.31313.79   Microsoft Corporation    
 +Visual Studio Build Tools 2019 (2)                                            16.10.31410.357 Microsoft Corporation    
 +Visual Studio Community 2019                                                  16.10.31410.357 Microsoft Corporation    
  WPT Redistributables                                                          10.1.18362.1    Microsoft                
