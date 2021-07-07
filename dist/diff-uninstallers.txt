@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-07-07 07:07:48.305699213 +0000
-+++ uninstallers-stable.u8.txt	2021-07-07 07:07:48.309699234 +0000
+--- uninstallers-previous.u8.txt	2021-07-07 08:08:10.356814370 +0000
++++ uninstallers-stable.u8.txt	2021-07-07 08:08:10.360814373 +0000
 @@ -16,13 +16,10 @@
  MSI Development Tools                                                         10.1.17134.12   Microsoft Corporation    
  MSI Development Tools                                                         10.1.17763.132  Microsoft Corporation    
