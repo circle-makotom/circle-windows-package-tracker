@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2021-07-28 06:07:11.000000000 +0000
-+++ chocolatey-stable.txt	2021-07-28 06:07:56.000000000 +0000
+--- chocolatey-previous.txt	2021-07-28 07:07:09.000000000 +0000
++++ chocolatey-stable.txt	2021-07-28 07:07:31.000000000 +0000
 @@ -10,10 +10,10 @@
  DotNet4.5 4.5.20120822
  dotnetcore-sdk 2.2.401
