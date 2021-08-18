@@ -1,5 +1,5 @@
---- managed-previous.md	2021-08-18 22:07:12.000000000 +0000
-+++ managed-stable.md	2021-08-18 22:07:34.000000000 +0000
+--- managed-previous.md	2021-08-18 23:07:13.000000000 +0000
++++ managed-stable.md	2021-08-18 23:07:24.000000000 +0000
 @@ -5,7 +5,7 @@
  
  ## git
@@ -14,12 +14,12 @@
  ## .net SDK
  
 -_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.301 [C:\Program Files\dotnet\sdk] <br/>
-+_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.302 [C:\Program Files\dotnet\sdk] <br/>
++_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.400 [C:\Program Files\dotnet\sdk] <br/>
  
  ## .net runtime
  
 -_Versions:_ Microsoft.AspNetCore.All 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.16 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.16 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.16 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
-+_Versions:_ Microsoft.AspNetCore.All 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.8 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.28 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.8 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
++_Versions:_ Microsoft.AspNetCore.All 2.1.29 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.29 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.18 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.9 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.29 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.18 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.9 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.18 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.9 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
  
  ## WinAppDriver
  
@@ -28,11 +28,16 @@
  ## Visual Studio 2019
  
 -_Version:_ installationVersion: 16.10.31410.357<br/>
-+_Version:_ installationVersion: 16.10.31515.178<br/>
++_Version:_ installationVersion: 16.11.31605.320<br/>
  
  ## windows sdk 10.0
  
-@@ -89,7 +89,7 @@
+@@ -85,11 +85,11 @@
+ 
+ ## yarn
+ 
+-_Version:_ 1.22.10<br/>
++_Version:_ 1.22.11<br/>
  
  ## nuget
  
