@@ -33,8 +33,8 @@ openjdk 12.0.2
 ruby 2.6.3.1
 service-fabric 8.0.516
 service-fabric-sdk 5.0.516
-sysinternals 2021.7.27
-vcredist140 14.29.30133
+sysinternals 2021.6.24
+vcredist140 14.29.30037
 vcredist2015 14.0.24215.20170201
 vim 8.0.604
 visualstudio-installer 2.0.1
