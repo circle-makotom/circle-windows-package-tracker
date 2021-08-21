@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-08-21 06:07:35.032066056 +0000
-+++ uninstallers-stable.u8.txt	2021-08-21 06:07:35.032066056 +0000
+--- uninstallers-previous.u8.txt	2021-08-21 07:07:33.888178981 +0000
++++ uninstallers-stable.u8.txt	2021-08-21 07:07:33.888178981 +0000
 @@ -2,7 +2,7 @@
  
                                                                                                                         
