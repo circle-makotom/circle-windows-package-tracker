@@ -5,7 +5,7 @@ _Version:_ 19.00<br/>
 
 ## git
 
-_Version:_ git version 2.32.0.windows.2<br/>
+_Version:_ git version 2.33.0.windows.2<br/>
 
 ## gzip
 
@@ -17,7 +17,7 @@ _Version:_ PsExec v2.34 <br/>
 
 ## Chocolatey
 
-_Version:_ 0.10.15<br/>
+_Version:_ 0.11.1<br/>
 
 ## aws
 
@@ -29,7 +29,7 @@ _Version:_ azure-cli                         2.0.70 <br/>
 
 ## Azure Service Fabric
 
-_Version:_  <br/>
+_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 5.1.321 <br/>
 
 ## nunit
 
@@ -49,7 +49,7 @@ _Version:_ jq-1.5<br/>
 
 ## go
 
-_Version:_ 1.12.7<br/>
+_Version:_ 1.1<br/>
 
 ## java
 
@@ -69,7 +69,7 @@ _Version:_ 1.1.1809.18001<br/>
 
 ## Visual Studio 2019
 
-_Version:_ installationVersion: 16.11.31605.320<br/>
+_Version:_ installationVersion: 16.11.31624.102<br/>
 
 ## windows sdk 10.0
 
@@ -89,7 +89,7 @@ _Version:_ 1.22.11<br/>
 
 ## nuget
 
-_Version:_ 5.10.0.7240<br/>
+_Version:_ 5.11.0.10<br/>
 
 ## python
 

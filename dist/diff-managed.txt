@@ -1,5 +1,41 @@
---- managed-previous.md	2021-09-13 19:07:14.000000000 +0000
-+++ managed-stable.md	2021-09-13 19:07:12.000000000 +0000
+--- managed-previous.md	2021-09-13 20:07:12.000000000 +0000
++++ managed-stable.md	2021-09-13 20:07:18.000000000 +0000
+@@ -5,7 +5,7 @@
+ 
+ ## git
+ 
+-_Version:_ git version 2.32.0.windows.2<br/>
++_Version:_ git version 2.33.0.windows.2<br/>
+ 
+ ## gzip
+ 
+@@ -17,7 +17,7 @@
+ 
+ ## Chocolatey
+ 
+-_Version:_ 0.10.15<br/>
++_Version:_ 0.11.1<br/>
+ 
+ ## aws
+ 
+@@ -29,7 +29,7 @@
+ 
+ ## Azure Service Fabric
+ 
+-_Version:_  <br/>
++_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 5.1.321 <br/>
+ 
+ ## nunit
+ 
+@@ -49,7 +49,7 @@
+ 
+ ## go
+ 
+-_Version:_ 1.12.7<br/>
++_Version:_ 1.1<br/>
+ 
+ ## java
+ 
 @@ -57,11 +57,11 @@
  
  ## .net SDK
@@ -19,11 +55,11 @@
  ## Visual Studio 2019
  
 -_Version:_ installationVersion: 16.10.31515.178<br/>
-+_Version:_ installationVersion: 16.11.31605.320<br/>
++_Version:_ installationVersion: 16.11.31624.102<br/>
  
  ## windows sdk 10.0
  
-@@ -85,7 +85,7 @@
+@@ -85,11 +85,11 @@
  
  ## yarn
  
@@ -31,4 +67,9 @@
 +_Version:_ 1.22.11<br/>
  
  ## nuget
+ 
+-_Version:_ 5.10.0.7240<br/>
++_Version:_ 5.11.0.10<br/>
+ 
+ ## python
  

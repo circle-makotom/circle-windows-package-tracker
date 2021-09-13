@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-09-13 19:07:33.761925990 +0000
-+++ uninstallers-stable.u8.txt	2021-09-13 19:07:33.765926005 +0000
+--- uninstallers-previous.u8.txt	2021-09-13 20:07:43.549328136 +0000
++++ uninstallers-stable.u8.txt	2021-09-13 20:07:43.553328149 +0000
 @@ -2,7 +2,7 @@
  
                                                                                                                         
@@ -126,8 +126,8 @@
  Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
 -Visual Studio Build Tools 2019 (2)                                            16.10.4         Microsoft Corporation    
 -Visual Studio Community 2019                                                  16.10.4         Microsoft Corporation    
-+Visual Studio Build Tools 2019 (2)                                            16.11.0         Microsoft Corporation    
-+Visual Studio Community 2019                                                  16.11.0         Microsoft Corporation    
++Visual Studio Build Tools 2019 (2)                                            16.11.2         Microsoft Corporation    
++Visual Studio Community 2019                                                  16.11.2         Microsoft Corporation    
  WPT Redistributables                                                          10.1.18362.1    Microsoft                
  WPTx64                                                                        10.1.18362.1    Microsoft                
  WinAppDeploy                                                                  10.0.26624      Microsoft Corporation    
@@ -163,7 +163,7 @@
  vs_clickoncebootstrappermsires                                                16.0.28329      Microsoft Corporation    
  vs_clickoncesigntoolmsi                                                       16.0.28329      Microsoft Corporation    
 -vs_communitymsi                                                               16.10.31306     Microsoft Corporation    
-+vs_communitymsi                                                               16.11.31507     Microsoft Corporation    
++vs_communitymsi                                                               16.11.31613     Microsoft Corporation    
  vs_communitymsires                                                            16.10.31213     Microsoft Corporation    
  vs_devenvmsi                                                                  16.0.28329      Microsoft Corporation    
 -vs_filehandler_amd64                                                          16.10.31206     Microsoft Corporation    
