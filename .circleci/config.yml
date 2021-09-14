@@ -9,15 +9,27 @@ library:
       - list-packages:
           name: previous
           image-tag: previous
+      - list-packages:
+          name: edge
+          image-tag: edge
       - compare:
+          name: compare-previous-stable
           a: previous
           b: stable
           requires:
             - stable
             - previous
+      - compare:
+          name: compare-stable-edge
+          a: stable
+          b: edge
+          requires:
+            - stable
+            - edge
       - publish:
           requires:
-            - compare
+            - compare-previous-stable
+            - compare-stable-edge
 
 jobs:
   list-packages:
@@ -76,25 +88,25 @@ jobs:
           command: |
             iconv -f UTF-16LE -t UTF-8 uninstallers-<< parameters.a >>.txt | tail -n +4 | sort -b > uninstallers-<< parameters.a >>.u8.txt
             iconv -f UTF-16LE -t UTF-8 uninstallers-<< parameters.b >>.txt | tail -n +4 | sort -b > uninstallers-<< parameters.b >>.u8.txt
-            bash -c '(diff -u uninstallers-<< parameters.a >>.u8.txt uninstallers-<< parameters.b >>.u8.txt | tee diff-uninstallers.txt) || true'
+            bash -c '(diff -u uninstallers-<< parameters.a >>.u8.txt uninstallers-<< parameters.b >>.u8.txt | tee diff-uninstallers-<< parameters.a >>-<< parameters.b >>.txt) || true'
       - run:
           name: diff chocolatey
-          command: bash -c '(diff -u chocolatey-<< parameters.a >>.txt chocolatey-<< parameters.b >>.txt | tee diff-chocolatey.txt) || true'
+          command: bash -c '(diff -u chocolatey-<< parameters.a >>.txt chocolatey-<< parameters.b >>.txt | tee diff-chocolatey-<< parameters.a >>-<< parameters.b >>.txt) || true'
       - run:
           name: diff managed
-          command: bash -c '(diff -u managed-<< parameters.a >>.md managed-<< parameters.b >>.md | tee diff-managed.txt) || true'
+          command: bash -c '(diff -u managed-<< parameters.a >>.md managed-<< parameters.b >>.md | tee diff-managed-<< parameters.a >>-<< parameters.b >>.txt) || true'
       - store_artifacts:
-          path: diff-uninstallers.txt
+          path: diff-uninstallers-<< parameters.a >>-<< parameters.b >>.txt
       - store_artifacts:
-          path: diff-chocolatey.txt
+          path: diff-chocolatey-<< parameters.a >>-<< parameters.b >>.txt
       - store_artifacts:
-          path: diff-managed.txt
+          path: diff-managed-<< parameters.a >>-<< parameters.b >>.txt
       - persist_to_workspace:
           root: .
           paths:
-            - diff-uninstallers.txt
-            - diff-chocolatey.txt
-            - diff-managed.txt
+            - diff-uninstallers-<< parameters.a >>-<< parameters.b >>.txt
+            - diff-chocolatey-<< parameters.a >>-<< parameters.b >>.txt
+            - diff-managed-<< parameters.a >>-<< parameters.b >>.txt
 
   publish:
     docker:
