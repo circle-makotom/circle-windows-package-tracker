@@ -42,4 +42,4 @@ Applications having an uninstaller recognized by Windows
 
 * [`stable`](dist/uninstallers-stable.txt)
 * [`previous`](dist/uninstallers-previous.txt)
-* [`edge`](dist/chocolatey-edge.txt)
+* [`edge`](dist/uninstallers-edge.txt)
