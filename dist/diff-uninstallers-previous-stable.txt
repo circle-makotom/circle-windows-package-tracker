@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2021-09-22 23:07:54.777417127 +0000
-+++ uninstallers-stable.u8.txt	2021-09-22 23:07:54.781417154 +0000
+--- uninstallers-previous.u8.txt	2021-09-23 00:07:39.985515935 +0000
++++ uninstallers-stable.u8.txt	2021-09-23 00:07:39.989515951 +0000
 @@ -207,8 +207,8 @@
  Visual C++ MSBuild Base Resource Package                                      14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X64 Package                                                14.0.24245      Microsoft Corporation    
