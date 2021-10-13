@@ -45,10 +45,10 @@ jobs:
       - image: debian:bullseye-slim
     steps:
       - run:
-          name: Install tar, diffutils, and git
+          name: Install dependencies
           command: |
             apt update
-            apt install -y tar diffutils git
+            apt install -y tar diffutils
       - attach_workspace:
           at: .
       - run: ls
