@@ -1,36 +1,5 @@
 version: 2.1
 
-library:
-  the-workflow: &the-workflow
-    jobs:
-      - list-packages:
-          name: stable
-          image-tag: stable
-      - list-packages:
-          name: previous
-          image-tag: previous
-      - list-packages:
-          name: edge
-          image-tag: edge
-      - compare:
-          name: compare-previous-stable
-          a: previous
-          b: stable
-          requires:
-            - stable
-            - previous
-      - compare:
-          name: compare-stable-edge
-          a: stable
-          b: edge
-          requires:
-            - stable
-            - edge
-      - publish:
-          requires:
-            - compare-previous-stable
-            - compare-stable-edge
-
 jobs:
   list-packages:
     parameters:
@@ -73,7 +42,7 @@ jobs:
       b:
         type: string
     docker:
-      - image: debian:buster-slim
+      - image: debian:bullseye-slim
     steps:
       - run:
           name: Install tar, diffutils, and git
@@ -127,14 +96,33 @@ jobs:
             git push -u origin
 
 workflows:
-  on-demand: *the-workflow
-
-  scheduled:
-    <<: *the-workflow
-    triggers:
-      - schedule:
-          cron: "0 * * * *"
-          filters:
-            branches:
-              only:
-                - main
+  run:
+    jobs:
+      - list-packages:
+          name: << matrix.image-tag >>
+          matrix:
+            parameters:
+              image-tag:
+                - stable
+                - previous
+                - edge
+      - compare:
+          name: compare-<< matrix.a >>-<< matrix.b >>
+          matrix:
+            parameters:
+              a:
+                - previous
+                - stable
+              b:
+                - stable
+                - edge
+            exclude:
+              - a: previous
+                b: edge
+              - a: stable
+                b: stable
+          requires:
+            - list-packages
+      - publish:
+          requires:
+            - compare
