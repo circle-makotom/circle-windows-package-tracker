@@ -1,5 +1,5 @@
---- chocolatey-stable.txt	2021-10-17 11:04:15.000000000 +0000
-+++ chocolatey-edge.txt	2021-10-17 11:04:04.000000000 +0000
+--- chocolatey-stable.txt	2021-10-17 12:04:00.000000000 +0000
++++ chocolatey-edge.txt	2021-10-17 12:04:07.000000000 +0000
 @@ -1,19 +1,19 @@
 -Chocolatey v0.11.2
 +Chocolatey v0.11.1
@@ -27,7 +27,7 @@
  golang 1.17
  gzip 1.3.12
  jq 1.5
-@@ -33,11 +33,11 @@
+@@ -33,14 +33,18 @@
  ruby 2.6.3.1
  service-fabric 8.1.321
  service-fabric-sdk 5.1.321
@@ -42,3 +42,10 @@
  visualstudio2019buildtools 16.3.6.0
  visualstudio2019community 16.3.6.0
  webpi 5.1
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 44 packages installed.
++
++Did you know Pro / Business automatically syncs with Programs and
++ Features? Learn more about Package Synchronizer at
++ https://chocolatey.org/compare
