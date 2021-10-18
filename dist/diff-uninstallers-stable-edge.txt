@@ -1,5 +1,5 @@
---- uninstallers-stable.u8.txt	2021-10-18 14:04:30.457945820 +0000
-+++ uninstallers-edge.u8.txt	2021-10-18 14:04:30.469945924 +0000
+--- uninstallers-stable.u8.txt	2021-10-18 15:04:34.091365632 +0000
++++ uninstallers-edge.u8.txt	2021-10-18 15:04:34.091365632 +0000
 @@ -6,8 +6,7 @@
  Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
  Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
@@ -20,7 +20,7 @@
  Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
  Microsoft .NET Core SDK 3.0.100 (x64)                                         3.0.100.14277   Microsoft Corporation    
  Microsoft .NET Core SDK 3.1.406 (x64)                                         3.1.406.15636   Microsoft Corporation    
-@@ -45,11 +43,11 @@
+@@ -45,12 +43,11 @@
  Microsoft .NET Framework 4.8 Targeting Pack                                   4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761       Microsoft Corporation    
  Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.03761       Microsoft Corporation    
@@ -28,6 +28,7 @@
 +Microsoft .NET Host FX Resolver - 5.0.9 (x86)                                 40.36.30309     Microsoft Corporation    
  Microsoft .NET Native SDK                                                     15.0.24211.07   Microsoft Corporation    
 -Microsoft .NET Runtime - 5.0.11 (x86)                                         40.44.30523     Microsoft Corporation    
+-Microsoft .NET SDK 5.0.401 (x64)                                              5.4.121.42430   Microsoft Corporation    
 -Microsoft ASP.NET Core 3.1.20 Shared Framework (x86)                          3.1.20.21472    Microsoft Corporation    
 -Microsoft ASP.NET Core 5.0.11 Shared Framework (x86)                          5.0.11.21476    Microsoft Corporation    
 +Microsoft .NET Runtime - 5.0.9 (x86)                                          40.36.30309     Microsoft Corporation    
@@ -36,7 +37,7 @@
  Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.11.75.64347  Microsoft Corporation    
  Microsoft ASP.NET Web Tools Packages 16.0 - ENU                               1.0.21125.0     Microsoft Corporation    
  Microsoft Azure CLI                                                           2.0.70          Microsoft Corporation    
-@@ -69,17 +67,17 @@
+@@ -70,17 +67,17 @@
  Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501                  12.0.30501.0    Microsoft Corporation    
  Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005                 12.0.21005      Microsoft Corporation    
  Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005                    12.0.21005      Microsoft Corporation    
@@ -62,7 +63,7 @@
  Microsoft Workflow Debugger v1.0 for x86                                      16.0.31306      Microsoft                
  Open XML SDK 2.5 for Microsoft Office                                         2.5.5631        Microsoft Corporation    
  Python 2.7.18                                                                 2.7.18150       Python Software Founda...
-@@ -98,8 +96,8 @@
+@@ -99,8 +96,8 @@
  Python 3.7.8 Utility Scripts (32-bit)                                         3.7.8150.0      Python Software Founda...
  Python 3.7.8 pip Bootstrap (32-bit)                                           3.7.8150.0      Python Software Founda...
  Python Launcher                                                               3.7.7118.0      Python Software Founda...
@@ -73,7 +74,7 @@
  SDK Debuggers                                                                 10.1.18362.1    Microsoft Corporation    
   Tools for .Net 3.5                                                           3.11.50727      Microsoft Corporation    
  TypeScript SDK                                                                4.3.5.0         Microsoft Corporation    
-@@ -109,27 +107,23 @@
+@@ -110,27 +107,23 @@
  Universal CRT Extension SDK                                                   10.1.17763.132  Microsoft Corporation    
  Universal CRT Extension SDK                                                   10.1.18362.1    Microsoft Corporation    
  Universal CRT Extension SDK                                                   10.1.19041.685  Microsoft Corporation    
@@ -102,7 +103,7 @@
  Update for  (KB2504637)                                                       1               Microsoft Corporation    
  VS Immersive Activate Helper                                                  16.0.102.0      Microsoft Corporation    
  Vim 8.0.604                                                                                                            
-@@ -213,8 +207,8 @@
+@@ -214,8 +207,8 @@
  Visual C++ MSBuild Base Resource Package                                      14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X64 Package                                                14.0.24245      Microsoft Corporation    
  Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
@@ -113,7 +114,7 @@
  WPT Redistributables                                                          10.1.18362.1    Microsoft                
  WPTx64                                                                        10.1.18362.1    Microsoft                
  WinAppDeploy                                                                  10.0.26624      Microsoft Corporation    
-@@ -223,73 +217,63 @@
+@@ -224,73 +217,63 @@
  WinAppDeploy                                                                  10.1.17763.132  Microsoft Corporation    
  WinAppDeploy                                                                  10.1.18362.1    Microsoft Corporation    
  WinAppDeploy                                                                  10.1.19041.685  Microsoft Corporation    
@@ -189,7 +190,7 @@
  Windows Application Driver                                                    1.1.3.0         Microsoft Corporation    
  Windows Desktop Extension SDK                                                 10.0.26624      Microsoft Corporation    
  Windows Desktop Extension SDK                                                 10.1.16299.15   Microsoft Corporation    
-@@ -297,14 +281,12 @@
+@@ -298,14 +281,12 @@
  Windows Desktop Extension SDK                                                 10.1.17763.132  Microsoft Corporation    
  Windows Desktop Extension SDK                                                 10.1.18362.1    Microsoft Corporation    
  Windows Desktop Extension SDK                                                 10.1.19041.685  Microsoft Corporation    
@@ -204,7 +205,7 @@
  Windows Espc Package                                                          14.0.24245      Microsoft Corporation    
  Windows Espc Package                                                          14.0.24245      Microsoft Corporation    
  Windows IP Over USB                                                           10.1.19041.685  Microsoft Corporation    
-@@ -314,14 +296,12 @@
+@@ -315,14 +296,12 @@
  Windows IoT Extension SDK                                                     10.1.17763.132  Microsoft Corporation    
  Windows IoT Extension SDK                                                     10.1.18362.1    Microsoft Corporation    
  Windows IoT Extension SDK                                                     10.1.19041.685  Microsoft Corporation    
@@ -219,7 +220,7 @@
  Windows Mobile Connectivity Tools 10.0.10240.0 - Desktop x86                  10.0.12671      Microsoft Corporation    
  Windows Mobile Connectivity Tools 10.0.15254.0 - Desktop x86                  10.1.15254.1    Microsoft Corporation    
  Windows Mobile Extension SDK                                                  10.1.16299.15   Microsoft Corporation    
-@@ -329,7 +309,6 @@
+@@ -330,7 +309,6 @@
  Windows Mobile Extension SDK                                                  10.1.17763.132  Microsoft Corporation    
  Windows Mobile Extension SDK                                                  10.1.18362.1    Microsoft Corporation    
  Windows Mobile Extension SDK                                                  10.1.19041.685  Microsoft Corporation    
@@ -227,7 +228,7 @@
  Windows Mobile Extension SDK 10.0.10240.0 - ARM                               10.0.10240.0    Microsoft Corporation    
  Windows Mobile Extension SDK 10.0.10240.0 - x86                               10.0.10240.0    Microsoft Corporation    
  Windows Mobile Extension SDK Contracts                                        10.1.16299.15   Microsoft Corporation    
-@@ -337,15 +316,13 @@
+@@ -338,15 +316,13 @@
  Windows Mobile Extension SDK Contracts                                        10.1.17763.132  Microsoft Corporation    
  Windows Mobile Extension SDK Contracts                                        10.1.18362.1    Microsoft Corporation    
  Windows Mobile Extension SDK Contracts                                        10.1.19041.685  Microsoft Corporation    
@@ -244,7 +245,7 @@
  Windows SDK AddOn                                                             10.1.0.0        Microsoft Corporation    
  Windows SDK Desktop Headers Libs Metadata                                     10.0.26624      Microsoft Corporation    
  Windows SDK Desktop Headers arm                                               10.1.16299.15   Microsoft Corporation    
-@@ -353,143 +330,121 @@
+@@ -354,143 +330,121 @@
  Windows SDK Desktop Headers arm                                               10.1.17763.132  Microsoft Corporation    
  Windows SDK Desktop Headers arm                                               10.1.18362.1    Microsoft Corporation    
  Windows SDK Desktop Headers arm                                               10.1.19041.685  Microsoft Corporation    
@@ -392,7 +393,7 @@
  Windows Simulator                                                             16.0.28522      Microsoft Corporation    
  Windows Simulator - ENU                                                       16.0.28522      Microsoft Corporation    
  Windows Software Development Kit - Windows 10.0.16299.15                      10.1.16299.15   Microsoft Corporation    
-@@ -497,7 +452,6 @@
+@@ -498,7 +452,6 @@
  Windows Software Development Kit - Windows 10.0.17763.132                     10.1.17763.132  Microsoft Corporation    
  Windows Software Development Kit - Windows 10.0.18362.1                       10.1.18362.1    Microsoft Corporation    
  Windows Software Development Kit - Windows 10.0.19041.685                     10.1.19041.685  Microsoft Corporation    
@@ -400,7 +401,7 @@
  Windows Software Development Kit - Windows 10.0.26624                         10.0.26624      Microsoft Corporation    
  Windows Team Extension SDK                                                    10.0.26624      Microsoft Corporation    
  Windows Team Extension SDK                                                    10.1.16299.15   Microsoft Corporation    
-@@ -505,14 +459,12 @@
+@@ -506,14 +459,12 @@
  Windows Team Extension SDK                                                    10.1.17763.132  Microsoft Corporation    
  Windows Team Extension SDK                                                    10.1.18362.1    Microsoft Corporation    
  Windows Team Extension SDK                                                    10.1.19041.685  Microsoft Corporation    
@@ -415,7 +416,7 @@
  Xamarin Offline Packages                                                      16.10.5         Xamarin                  
  Xamarin PCL Profiles v1.0.9                                                   1.0.9.0         Xamarin                  
  Xamarin Remoted iOS Simulator                                                 16.10.0.380     Xamarin                  
-@@ -524,7 +476,7 @@
+@@ -525,7 +476,7 @@
  sptools_Microsoft.VisualStudio.Vsto.Msi                                       16.0.28030      Microsoft Corporation    
  sptools_Microsoft.VisualStudio.Vsto.Msi.Resources                             16.0.28030      Microsoft Corporation    
  sptools_Microsoft.VisualStudio.Vsto.Msi.x64                                   16.0.28030      Microsoft Corporation    
