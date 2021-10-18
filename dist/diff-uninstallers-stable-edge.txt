@@ -1,5 +1,5 @@
---- uninstallers-stable.u8.txt	2021-10-18 08:04:34.114273538 +0000
-+++ uninstallers-edge.u8.txt	2021-10-18 08:04:34.118273636 +0000
+--- uninstallers-stable.u8.txt	2021-10-18 09:04:31.447652658 +0000
++++ uninstallers-edge.u8.txt	2021-10-18 09:04:31.447652658 +0000
 @@ -6,8 +6,7 @@
  Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
  Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
