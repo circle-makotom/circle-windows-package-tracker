@@ -1,13 +1,10 @@
---- chocolatey-stable.txt	2021-10-25 20:04:11.000000000 +0000
-+++ chocolatey-edge.txt	2021-10-25 20:04:28.000000000 +0000
-@@ -40,8 +40,8 @@
- vcredist2015 14.0.24215.20170201
- vim 8.0.604
- visualstudio-installer 2.0.2
--visualstudio2019buildtools 16.3.6.0
--visualstudio2019community 16.3.6.0
-+visualstudio2019buildtools 16.11.4.0
-+visualstudio2019community 16.11.4.0
- webpi 5.1
+--- chocolatey-stable.txt	2021-10-25 21:04:07.000000000 +0000
++++ chocolatey-edge.txt	2021-10-25 21:04:05.000000000 +0000
+@@ -46,3 +46,7 @@
  windows-sdk-10.0 10.0.26624
  windows-sdk-10.1 10.1.18362.1
+ 46 packages installed.
++
++Did you know Pro / Business automatically syncs with Programs and
++ Features? Learn more about Package Synchronizer at
++ https://chocolatey.org/compare
