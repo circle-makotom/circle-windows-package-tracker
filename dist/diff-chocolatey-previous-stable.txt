@@ -1,6 +1,18 @@
---- chocolatey-previous.txt	2021-11-15 02:04:00.000000000 +0000
-+++ chocolatey-stable.txt	2021-11-15 02:04:12.000000000 +0000
-@@ -40,8 +40,8 @@
+--- chocolatey-previous.txt	2021-11-15 03:04:03.000000000 +0000
++++ chocolatey-stable.txt	2021-11-15 03:04:05.000000000 +0000
+@@ -1,11 +1,4 @@
+ Chocolatey v0.11.2
+-2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
+-
+-Validation Warnings:
+- - A pending system reboot request has been detected, however, this is
+-   being ignored due to the current command being used 'list'.
+-   It is recommended that you reboot at your earliest convenience.
+-
+ 7zip.portable 19.0
+ awscli 1.16.209
+ azure-cli 2.0.70
+@@ -47,8 +40,8 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.2
