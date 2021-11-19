@@ -1,5 +1,5 @@
---- chocolatey-stable.txt	2021-11-19 02:04:06.000000000 +0000
-+++ chocolatey-edge.txt	2021-11-19 02:04:06.000000000 +0000
+--- chocolatey-stable.txt	2021-11-19 03:04:04.000000000 +0000
++++ chocolatey-edge.txt	2021-11-19 03:04:06.000000000 +0000
 @@ -1,4 +1,11 @@
  Chocolatey v0.11.2
 +2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
@@ -12,3 +12,11 @@
  7zip.portable 19.0
  awscli 1.16.209
  azure-cli 2.0.70
+@@ -46,7 +53,3 @@
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 46 packages installed.
+-
+-Did you know Pro / Business automatically syncs with Programs and
+- Features? Learn more about Package Synchronizer at
+- https://chocolatey.org/compare
