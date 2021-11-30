@@ -1,0 +1,90 @@
+--- uninstallers-stable.u8.txt	2021-11-30 23:04:58.673110461 +0000
++++ uninstallers-edge.u8.txt	2021-11-30 23:04:58.677110518 +0000
+@@ -2,6 +2,7 @@
+ 
+                                                                                                                        
+                                                                                                                        
++Browser for SQL Server 2019                                                   15.0.2000.5     Microsoft Corporation    
+ ClickOnce Bootstrapper Package for Microsoft .NET Framework                   4.8.04162       Microsoft Corporation    
+ Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
+ Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
+@@ -19,7 +20,7 @@
+ MSI Development Tools                                                         10.1.18362.1    Microsoft Corporation    
+ MSI Development Tools                                                         10.1.19041.685  Microsoft Corporation    
+ MSI Development Tools                                                         10.1.22000.194  Microsoft Corporation    
+-Microsoft .NET Core Runtime - 3.1.20 (x86)                                    24.80.30521     Microsoft Corporation    
++Microsoft .NET Core Runtime - 3.1.21 (x86)                                    24.84.30622     Microsoft Corporation    
+ Microsoft .NET Core SDK 2.2.401 (x64)                                         2.2.401         Microsoft Corporation    
+ Microsoft .NET Core SDK 3.0.100 (x64)                                         3.0.100.14277   Microsoft Corporation    
+ Microsoft .NET Core SDK 3.1.406 (x64)                                         3.1.406.15636   Microsoft Corporation    
+@@ -45,13 +46,13 @@
+ Microsoft .NET Framework 4.8 Targeting Pack                                   4.8.03761       Microsoft Corporation    
+ Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761       Microsoft Corporation    
+ Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.03761       Microsoft Corporation    
+-Microsoft .NET Host FX Resolver - 5.0.11 (x86)                                40.44.30523     Microsoft Corporation    
++Microsoft .NET Host FX Resolver - 5.0.12 (x86)                                40.48.30622     Microsoft Corporation    
+ Microsoft .NET Native SDK                                                     15.0.24211.07   Microsoft Corporation    
+-Microsoft .NET Runtime - 5.0.11 (x86)                                         40.44.30523     Microsoft Corporation    
++Microsoft .NET Runtime - 5.0.12 (x86)                                         40.48.30622     Microsoft Corporation    
+ Microsoft .NET SDK 5.0.401 (x64)                                              5.4.121.42430   Microsoft Corporation    
+-Microsoft ASP.NET Core 3.1.20 Shared Framework (x86)                          3.1.20.21472    Microsoft Corporation    
+-Microsoft ASP.NET Core 5.0.11 Shared Framework (x86)                          5.0.11.21476    Microsoft Corporation    
+-Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.11.75.64347  Microsoft Corporation    
++Microsoft ASP.NET Core 3.1.21 Shared Framework (x86)                          3.1.21.21523    Microsoft Corporation    
++Microsoft ASP.NET Core 5.0.12 Shared Framework (x86)                          5.0.12.21524    Microsoft Corporation    
++Microsoft ASP.NET Diagnostic Pack for Visual Studio                           16.11.94.52318  Microsoft Corporation    
+ Microsoft ASP.NET Web Tools Packages 16.0 - ENU                               1.0.21125.0     Microsoft Corporation    
+ Microsoft Azure CLI                                                           2.0.70          Microsoft Corporation    
+ Microsoft Azure Storage Emulator - v5.10                                      5.10.19227.2113 Microsoft Corporation    
+@@ -70,17 +71,17 @@
+ Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501                  12.0.30501.0    Microsoft Corporation    
+ Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005                 12.0.21005      Microsoft Corporation    
+ Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005                    12.0.21005      Microsoft Corporation    
+-Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.29.30135            14.29.30135.0   Microsoft Corporation    
+-Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.29.30135            14.29.30135.0   Microsoft Corporation    
+-Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30135                14.29.30135     Microsoft Corporation    
++Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.30.30704            14.30.30704.0   Microsoft Corporation    
++Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.30.30704            14.30.30704.0   Microsoft Corporation    
+ Microsoft Visual C++ 2019 X86 Debug Runtime - 14.29.30135                     14.29.30135     Microsoft Corporation    
+-Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.29.30135                   14.29.30135     Microsoft Corporation    
++Microsoft Visual C++ 2022 X86 Additional Runtime - 14.30.30704                14.30.30704     Microsoft Corporation    
++Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.30.30704                   14.30.30704     Microsoft Corporation    
+ Microsoft Visual Studio 2019 Tools for Unity                                  4.11.4.0        Microsoft Corporation    
+-Microsoft Visual Studio Setup Configuration                                   2.7.3111.17308  Microsoft Corporation    
+-Microsoft Visual Studio Setup WMI Provider                                    2.7.3111.17308  Microsoft Corporation    
++Microsoft Visual Studio Setup Configuration                                   2.11.47.9733    Microsoft Corporation    
++Microsoft Visual Studio Setup WMI Provider                                    2.11.47.9733    Microsoft Corporation    
+ Microsoft Windows Communication Foundation Diagnostic Pack for x86            16.0.28329      Microsoft                
+-Microsoft Windows Desktop Runtime - 3.1.20 (x86)                              24.80.30521     Microsoft Corporation    
+-Microsoft Windows Desktop Runtime - 5.0.11 (x86)                              40.44.30524     Microsoft Corporation    
++Microsoft Windows Desktop Runtime - 3.1.21 (x86)                              24.84.30622     Microsoft Corporation    
++Microsoft Windows Desktop Runtime - 5.0.12 (x86)                              40.48.30623     Microsoft Corporation    
+ Microsoft Workflow Debugger v1.0 for x86                                      16.0.31306      Microsoft                
+ Open XML SDK 2.5 for Microsoft Office                                         2.5.5631        Microsoft Corporation    
+ Python 2.7.18                                                                 2.7.18150       Python Software Founda...
+@@ -214,8 +215,8 @@
+ Visual C++ MSBuild Base Resource Package                                      14.0.24245      Microsoft Corporation    
+ Visual C++ MSBuild X64 Package                                                14.0.24245      Microsoft Corporation    
+ Visual C++ MSBuild X86 Package                                                14.0.24245      Microsoft Corporation    
+-Visual Studio Build Tools 2019 (2)                                            16.11.5         Microsoft Corporation    
+-Visual Studio Community 2019                                                  16.11.5         Microsoft Corporation    
++Visual Studio Build Tools 2019 (2)                                            16.11.7         Microsoft Corporation    
++Visual Studio Community 2019                                                  16.11.7         Microsoft Corporation    
+ WPT Redistributables                                                          10.1.18362.1    Microsoft                
+ WPTx64                                                                        10.1.18362.1    Microsoft                
+ WinAppDeploy                                                                  10.0.26624      Microsoft Corporation    
+@@ -533,7 +534,7 @@
+ vs_clickoncebootstrappermsi                                                   16.10.31206     Microsoft Corporation    
+ vs_clickoncebootstrappermsires                                                16.0.28329      Microsoft Corporation    
+ vs_clickoncesigntoolmsi                                                       16.0.28329      Microsoft Corporation    
+-vs_communitymsi                                                               16.11.31613     Microsoft Corporation    
++vs_communitymsi                                                               16.11.31911     Microsoft Corporation    
+ vs_communitymsires                                                            16.10.31213     Microsoft Corporation    
+ vs_devenvmsi                                                                  16.0.28329      Microsoft Corporation    
+ vs_filehandler_amd64                                                          16.11.31503     Microsoft Corporation    
+@@ -542,4 +543,4 @@
+ vs_minshellmsi                                                                16.11.31503     Microsoft Corporation    
+ vs_minshellmsires                                                             16.10.31303     Microsoft Corporation    
+ vs_tipsmsi                                                                    16.0.28329      Microsoft Corporation    
+-windows_toolscorepkg                                                          16.10.31306     Microsoft Corporation    
++windows_toolscorepkg                                                          16.11.31829     Microsoft Corporation    
