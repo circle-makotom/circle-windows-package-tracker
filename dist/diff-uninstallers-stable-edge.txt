@@ -1,5 +1,5 @@
---- uninstallers-stable.u8.txt	2021-12-05 05:04:24.503916726 +0000
-+++ uninstallers-edge.u8.txt	2021-12-05 05:04:24.507916752 +0000
+--- uninstallers-stable.u8.txt	2021-12-05 06:04:26.205782720 +0000
++++ uninstallers-edge.u8.txt	2021-12-05 06:04:26.205782720 +0000
 @@ -2,6 +2,7 @@
  
                                                                                                                         
