@@ -1,5 +1,5 @@
---- uninstallers-previous.u8.txt	2022-01-01 18:04:33.815064197 +0000
-+++ uninstallers-stable.u8.txt	2022-01-01 18:04:33.819064189 +0000
+--- uninstallers-previous.u8.txt	2022-01-01 19:04:33.443824869 +0000
++++ uninstallers-stable.u8.txt	2022-01-01 19:04:33.443824869 +0000
 @@ -2,6 +2,7 @@
  
                                                                                                                         
