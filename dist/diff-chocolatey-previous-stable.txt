@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2022-01-08 14:04:03.000000000 +0000
-+++ chocolatey-stable.txt	2022-01-08 14:04:17.000000000 +0000
+--- chocolatey-previous.txt	2022-01-08 15:04:06.000000000 +0000
++++ chocolatey-stable.txt	2022-01-08 15:04:12.000000000 +0000
 @@ -1,8 +1,8 @@
 -Chocolatey v0.11.2
 +Chocolatey v0.11.3
