@@ -1,5 +1,16 @@
---- uninstallers-stable.u8.txt	2022-03-23 22:04:30.626268299 +0000
-+++ uninstallers-edge.u8.txt	2022-03-23 22:04:30.630268325 +0000
+--- uninstallers-stable.u8.txt	2022-03-23 23:04:26.642782592 +0000
++++ uninstallers-edge.u8.txt	2022-03-23 23:04:26.642782592 +0000
+@@ -7,8 +7,8 @@
+ Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
+ Cocos Creator                                                                 1.5.2.0         Chukong Technologies     
+ Entity Framework 6.2.0 Tools  for Visual Studio 2019                          6.2.0.0         Microsoft Corporation    
+-Epic Games Launcher                                                           1.3.0.0         Epic Games, Inc.         
+-Epic Online Services                                                          2.0.28.0        Epic Games, Inc.         
++Epic Games Launcher                                                           1.3.23.0        Epic Games, Inc.         
++Epic Online Services                                                          2.0.33.0        Epic Games, Inc.         
+ Google Cloud SDK                                                                              Google Inc.              
+ IntelliTraceProfilerProxy                                                     15.0.18198.01   Microsoft Corporation    
+ Intellisense Lang Pack Mobile Extension SDK 10.0.10240.0                      10.0.10240.0    Microsoft Corporation    
 @@ -20,7 +20,7 @@
  MSI Development Tools                                                         10.1.18362.1    Microsoft Corporation    
  MSI Development Tools                                                         10.1.19041.685  Microsoft Corporation    

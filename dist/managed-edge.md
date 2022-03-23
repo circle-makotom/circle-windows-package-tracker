@@ -17,7 +17,7 @@ _Version:_ PsExec v2.34 <br/>
 
 ## Chocolatey
 
-_Version:_ 0.12.1<br/>
+_Version:_ 1.0.0<br/>
 
 ## aws
 
@@ -29,7 +29,7 @@ _Version:_ azure-cli                         2.0.70 <br/>
 
 ## Azure Service Fabric
 
-_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 5.2.1486 <br/>
+_Version:_  <br/>
 
 ## nunit
 
@@ -45,7 +45,7 @@ _Version:_ 8.2<br/>
 
 ## jq
 
-_Version:_ jq-1.5<br/>
+_Version:_ jq-1.6<br/>
 
 ## go
 
@@ -85,7 +85,7 @@ _Version:_ 1.1.7<br/>
 
 ## yarn
 
-_Version:_ 1.22.17<br/>
+_Version:_ 1.22.18<br/>
 
 ## nuget
 

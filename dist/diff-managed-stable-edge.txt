@@ -1,5 +1,5 @@
---- managed-stable.md	2022-03-23 22:04:14.000000000 +0000
-+++ managed-edge.md	2022-03-23 22:04:13.000000000 +0000
+--- managed-stable.md	2022-03-23 23:04:11.000000000 +0000
++++ managed-edge.md	2022-03-23 23:04:03.000000000 +0000
 @@ -5,7 +5,7 @@
  
  ## git
@@ -14,7 +14,7 @@
  ## Chocolatey
  
 -_Version:_ 0.12.0<br/>
-+_Version:_ 0.12.1<br/>
++_Version:_ 1.0.0<br/>
  
  ## aws
  
@@ -23,9 +23,18 @@
  ## Azure Service Fabric
  
 -_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 5.2.1363 <br/>
-+_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 5.2.1486 <br/>
++_Version:_  <br/>
  
  ## nunit
+ 
+@@ -45,7 +45,7 @@
+ 
+ ## jq
+ 
+-_Version:_ jq-1.5<br/>
++_Version:_ jq-1.6<br/>
+ 
+ ## go
  
 @@ -57,11 +57,11 @@
  
@@ -50,7 +59,12 @@
  
  ## windows sdk 10.0
  
-@@ -89,7 +89,7 @@
+@@ -85,11 +85,11 @@
+ 
+ ## yarn
+ 
+-_Version:_ 1.22.17<br/>
++_Version:_ 1.22.18<br/>
  
  ## nuget
  
