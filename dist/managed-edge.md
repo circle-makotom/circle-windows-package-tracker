@@ -17,7 +17,7 @@ _Version:_ PsExec v2.34 <br/>
 
 ## Chocolatey
 
-_Version:_ 1.0.1<br/>
+_Version:_ 1.1.0<br/>
 
 ## aws
 
