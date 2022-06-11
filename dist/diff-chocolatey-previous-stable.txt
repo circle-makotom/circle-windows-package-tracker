@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2022-06-11 19:05:55.000000000 +0000
-+++ chocolatey-stable.txt	2022-06-11 19:03:41.000000000 +0000
+--- chocolatey-previous.txt	2022-06-11 20:07:19.000000000 +0000
++++ chocolatey-stable.txt	2022-06-11 20:03:45.000000000 +0000
 @@ -1,8 +1,8 @@
 -Chocolatey v0.12.0
 +Chocolatey v1.0.1
@@ -53,13 +53,12 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.2
-@@ -46,4 +47,8 @@
+@@ -46,7 +47,7 @@
  webpi 5.1
  windows-sdk-10.0 10.0.26624
  windows-sdk-10.1 10.1.18362.1
 -47 packages installed.
 +48 packages installed.
-+
-+Did you know Pro / Business automatically syncs with Programs and
-+ Features? Learn more about Package Synchronizer at
-+ https://chocolatey.org/compare
+ 
+ Did you know Pro / Business automatically syncs with Programs and
+  Features? Learn more about Package Synchronizer at
