@@ -1,8 +1,15 @@
---- chocolatey-previous.txt	2022-06-27 01:06:45.000000000 +0000
-+++ chocolatey-stable.txt	2022-06-27 01:03:41.000000000 +0000
-@@ -1,8 +1,8 @@
+--- chocolatey-previous.txt	2022-06-27 02:08:36.000000000 +0000
++++ chocolatey-stable.txt	2022-06-27 02:03:46.000000000 +0000
+@@ -1,8 +1,15 @@
 -Chocolatey v1.0.1
 +Chocolatey v1.1.0
++2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
++
++Validation Warnings:
++ - A pending system reboot request has been detected, however, this is
++   being ignored due to the current command being used 'list'.
++   It is recommended that you reboot at your earliest convenience.
++
  7zip.portable 21.7
  awscli 1.16.209
  azure-cli 2.0.70
@@ -11,7 +18,7 @@
  chocolatey-core.extension 1.3.5.1
  chocolatey-dotnetfx.extension 1.0.1
  chocolatey-visualstudio.extension 1.10.0
-@@ -38,7 +38,7 @@
+@@ -38,7 +45,7 @@
  service-fabric-sdk 5.2.1486
  sql-server-2019 15.0.2000.20210324
  sysinternals 2022.2.16
@@ -20,3 +27,11 @@
  vcredist2015 14.0.24215.20170201
  vim 8.0.604
  visualstudio-installer 2.0.2
+@@ -48,3 +55,7 @@
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 48 packages installed.
++
++Did you know Pro / Business automatically syncs with Programs and
++ Features? Learn more about Package Synchronizer at
++ https://chocolatey.org/compare
