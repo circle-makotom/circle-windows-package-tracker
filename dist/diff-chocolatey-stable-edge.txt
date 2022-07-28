@@ -1,0 +1,10 @@
+--- chocolatey-stable.txt	2022-07-28 22:03:40.000000000 +0000
++++ chocolatey-edge.txt	2022-07-28 22:03:51.000000000 +0000
+@@ -48,7 +48,3 @@
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+ 48 packages installed.
+-
+-Did you know Pro / Business automatically syncs with Programs and
+- Features? Learn more about Package Synchronizer at
+- https://chocolatey.org/compare
