@@ -1,0 +1,64 @@
+--- chocolatey-stable.txt	2022-08-10 18:03:41.000000000 +0000
++++ chocolatey-edge.txt	2022-08-10 18:06:12.000000000 +0000
+@@ -1,21 +1,22 @@
+ Chocolatey v1.1.0
+-7zip.portable 21.7
++7zip.portable 22.1
+ awscli 1.16.209
+ azure-cli 2.0.70
+ chocolatey 1.1.0
+-chocolatey-core.extension 1.3.5.1
++chocolatey-compatibility.extension 1.0.0
++chocolatey-core.extension 1.4.0
+ chocolatey-dotnetfx.extension 1.0.1
+-chocolatey-visualstudio.extension 1.10.0
++chocolatey-visualstudio.extension 1.10.2
+ chocolatey-windowsupdate.extension 1.0.4
+ dotnet-5.0-sdk 5.0.401
+ dotnet-5.0-sdk-4xx 5.0.401
+ DotNet4.5 4.5.20120822
+ dotnetcore-sdk 2.2.401
+-dotnetfx 4.8.0.20190930
+-git 2.35.1.2
+-git-lfs 3.1.2
+-git-lfs.install 3.1.2
+-git.install 2.35.1.2
++dotnetfx 4.8.0.20220524
++git 2.37.1
++git-lfs 3.2.0
++git-lfs.install 3.2.0
++git.install 2.37.1
+ golang 1.17.6
+ gzip 1.3.12
+ jq 1.6
+@@ -28,23 +29,23 @@
+ KB3063858 1.0.0
+ miniconda3 4.6.14
+ nano 2.5.3
+-nuget.commandline 6.1.0
++nuget.commandline 6.2.1
+ nunit-console-runner 3.10.0
+ nvm.portable 1.1.7
+ openjdk 12.0.2
+ pyenv-win 2.64.11
+ ruby 2.6.3.1
+-service-fabric 8.2.1486
+-service-fabric-sdk 5.2.1486
++service-fabric 9.0.1048
++service-fabric-sdk 6.0.1048
+ sql-server-2019 15.0.2000.20210324
+-sysinternals 2022.2.16
+-vcredist140 14.31.31103.20220402
++sysinternals 2022.7.30
++vcredist140 14.32.31332
+ vcredist2015 14.0.24215.20170201
+ vim 8.0.604
+-visualstudio-installer 2.0.2
++visualstudio-installer 2.0.3
+ visualstudio2019buildtools 16.11.9.0
+ visualstudio2019community 16.11.9.0
+ webpi 5.1
+ windows-sdk-10.0 10.0.26624
+ windows-sdk-10.1 10.1.18362.1
+-48 packages installed.
++49 packages installed.
