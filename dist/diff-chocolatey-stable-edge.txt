@@ -1,5 +1,5 @@
---- chocolatey-stable.txt	2022-08-12 08:03:43.000000000 +0000
-+++ chocolatey-edge.txt	2022-08-12 08:06:59.000000000 +0000
+--- chocolatey-stable.txt	2022-08-12 09:03:50.000000000 +0000
++++ chocolatey-edge.txt	2022-08-12 09:05:08.000000000 +0000
 @@ -1,28 +1,22 @@
  Chocolatey v1.1.0
 -2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
