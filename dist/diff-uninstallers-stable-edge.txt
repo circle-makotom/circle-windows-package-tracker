@@ -1,5 +1,5 @@
---- uninstallers-stable.u8.txt	2022-08-12 09:05:27.431589022 +0000
-+++ uninstallers-edge.u8.txt	2022-08-12 09:05:27.431589022 +0000
+--- uninstallers-stable.u8.txt	2022-08-12 10:07:40.339310001 +0000
++++ uninstallers-edge.u8.txt	2022-08-12 10:07:40.343310028 +0000
 @@ -20,7 +20,7 @@
  MSI Development Tools                                                         10.1.18362.1    Microsoft Corporation    
  MSI Development Tools                                                         10.1.19041.685  Microsoft Corporation    
