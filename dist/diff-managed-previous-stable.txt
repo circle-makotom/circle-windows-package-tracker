@@ -1,11 +1,71 @@
---- managed-previous.md	2022-08-19 19:06:09.000000000 +0000
-+++ managed-stable.md	2022-08-19 19:03:46.000000000 +0000
-@@ -17,7 +17,7 @@
+--- managed-previous.md	2022-08-19 20:06:21.000000000 +0000
++++ managed-stable.md	2022-08-19 20:03:50.000000000 +0000
+@@ -1,11 +1,11 @@
+ 
+ ## 7zip
+ 
+-_Version:_ 21.07<br/>
++_Version:_ 22.01<br/>
+ 
+ ## git
+ 
+-_Version:_ git version 2.35.1.windows.2<br/>
++_Version:_ git version 2.37.1.windows.1<br/>
+ 
+ ## gzip
+ 
+@@ -13,7 +13,7 @@
+ 
+ ## PsExec64
+ 
+-_Version:_ PsExec v2.34 <br/>
++_Version:_ PsExec v2.4 <br/>
  
  ## Chocolatey
  
--_Version:_ 1.0.1<br/>
-+_Version:_ 1.1.0<br/>
+@@ -29,7 +29,7 @@
  
- ## aws
+ ## Azure Service Fabric
+ 
+-_Version:_  <br/>
++_Version:_ MicrosoftAzure-ServiceFabric-CoreSDK Microsoft Azure Service Fabric SDK - 6.0.1028 <br/>
+ 
+ ## nunit
+ 
+@@ -57,11 +57,11 @@
+ 
+ ## .net SDK
+ 
+-_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.401 [C:\Program Files\dotnet\sdk] 5.0.406 [C:\Program Files\dotnet\sdk] <br/>
++_Versions:_ 2.2.401 [C:\Program Files\dotnet\sdk] 3.0.100 [C:\Program Files\dotnet\sdk] 3.1.406 [C:\Program Files\dotnet\sdk] 5.0.401 [C:\Program Files\dotnet\sdk] 5.0.411 [C:\Program Files\dotnet\sdk] <br/>
+ 
+ ## .net runtime
+ 
+-_Versions:_ Microsoft.AspNetCore.All 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.23 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.23 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.23 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.15 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
++_Versions:_ Microsoft.AspNetCore.All 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.All 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All] Microsoft.AspNetCore.App 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.AspNetCore.App 6.0.8 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App] Microsoft.NETCore.App 2.1.30 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 2.2.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.NETCore.App 6.0.8 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App] Microsoft.WindowsDesktop.App 3.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 3.1.28 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 5.0.10 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] Microsoft.WindowsDesktop.App 6.0.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App] <br/>
+ 
+ ## WinAppDriver
+ 
+@@ -69,7 +69,7 @@
+ 
+ ## Visual Studio 2019
+ 
+-_Version:_ installationVersion: 16.11.32228.343<br/>
++_Version:_ installationVersion: 16.11.32802.440<br/>
+ 
+ ## windows sdk 10.0
+ 
+@@ -85,11 +85,11 @@
+ 
+ ## yarn
+ 
+-_Version:_ 1.22.18<br/>
++_Version:_ 1.22.19<br/>
+ 
+ ## nuget
+ 
+-_Version:_ 6.1.0.106<br/>
++_Version:_ 6.2.1.2<br/>
+ 
+ ## python
  
