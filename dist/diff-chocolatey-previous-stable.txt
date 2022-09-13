@@ -1,5 +1,5 @@
---- chocolatey-previous.txt	2022-09-13 15:12:08.000000000 +0000
-+++ chocolatey-stable.txt	2022-09-13 15:03:54.000000000 +0000
+--- chocolatey-previous.txt	2022-09-13 16:06:09.000000000 +0000
++++ chocolatey-stable.txt	2022-09-13 16:03:48.000000000 +0000
 @@ -1,21 +1,22 @@
  Chocolatey v1.1.0
 -7zip.portable 21.7
