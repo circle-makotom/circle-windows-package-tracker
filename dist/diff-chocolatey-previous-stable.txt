@@ -1,0 +1,14 @@
+--- chocolatey-previous.txt	2023-02-09 17:20:43.000000000 +0000
++++ chocolatey-stable.txt	2023-02-09 17:20:42.000000000 +0000
+@@ -1,4 +1,11 @@
+ Chocolatey v1.1.0
++2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
++
++Validation Warnings:
++ - A pending system reboot request has been detected, however, this is
++   being ignored due to the current command being used 'list'.
++   It is recommended that you reboot at your earliest convenience.
++
+ 7zip.portable 22.1
+ awscli 1.16.209
+ azure-cli 2.0.70
